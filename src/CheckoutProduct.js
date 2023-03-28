@@ -4,7 +4,7 @@ import './CheckoutProduct.css';
 function CheckoutProduct({ id, title, image, price, rating }) {
   return (
     <div className="checkoutProduct">
-      <img src="{image}" alt="" className="checkoutProduct__image" />
+      <img src={image} alt="" className="checkoutProduct__image" />
 
       <div className="checkoutProduct__info">
         <p className="checkoutProduct__title">{title}</p>
